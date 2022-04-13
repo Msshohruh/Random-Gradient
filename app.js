@@ -49,7 +49,7 @@ function randomGr() {
 let l = false
 function autoChange() {
     let i = 0
-    while (i < 10) {
+    while (i < 100) {
         
         let k = setTimeout(() => {
             if (!l) {
