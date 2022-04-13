@@ -23,8 +23,6 @@ const values = [
 
 
 
-// console.log(color)
-
 function randomBgColor () {
     let color = '#'
     for (let i = 0; i < 6; i++) {
@@ -60,20 +58,6 @@ function autoChange() {
         
         i++   
     }
-    // for(let i = 0; i < 100; i++) {
-    //     let k = setTimeout(() => {
-
-    //         color1 = randomBgColor()
-    //         color2 = randomBgColor()
-        
-    //         body.style.background = `linear-gradient(${Math.floor(Math.random() * 360)}deg, ${color1}, ${color2})`
-    //         console.log(l)
-    //         if (l) {
-    //             i += 100
-    //             console.log(i)
-    //         }
-    //         }, i*1000);
-    // }
 }
 
 
