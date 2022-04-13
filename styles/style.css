@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;   
+    background: linear-gradient(115deg, rgb(210, 139, 68), rgb(10, 169, 103));
+    
+}
+.container{
+    margin-bottom: 20px;
+}
+.music-card{
+    display: inline-block;
+    border: white solid 2px;
+    border-radius: 9%;
+    background-size: 300px 500px;
+    background: rgba(41, 41, 41, 0.506);
+    padding: 10px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    opacity: 0.9;
+}
+p{
+    font-style: italic;
+    font-size: 16px;
+}
+.random-color {
+
+    border-radius: 10px;
+    border: 2px solid #000;
+    cursor: pointer;
+    padding: 12px 24px;
+    font-weight: bold;
+    color: #000;
+}
+.turned-btn{
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #000;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #000;
+
+}
